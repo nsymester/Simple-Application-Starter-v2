@@ -27,7 +27,7 @@
   ],
   "author": "",
   "license": "ISC",
-  "description": "Simple Project Starter using Gulp v4",
+  "description": "Simple Application Starter using Gulp v4",
   "devDependencies": {
     "autoprefixer": "^9.6.1",
     "babelify": "^10.0.0",
@@ -56,5 +56,16 @@
     "vinyl-buffer": "^1.0.1",
     "vinyl-source-stream": "^2.0.0",
     "watchify": "^3.11.1"
-  }
+  },
+  "dependencies": {
+    "fsevents": "^1.2.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nsymester/Simple-Application-Starter-v2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nsymester/Simple-Application-Starter-v2/issues"
+  },
+  "homepage": "https://github.com/nsymester/Simple-Application-Starter-v2#readme"
 }

@@ -1,0 +1,60 @@
+{
+  "name": "simple-application-starter-v2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development && gulp dev",
+    "build": "cross-env NODE_ENV=production && gulp build"
+  },
+  "keywords": [],
+  "paths": {
+    "stylesheets": {
+      "src": "src/stylesheets/**/*.scss"
+    },
+    "scripts": {
+      "src": "src/scripts/**/*.js"
+    },
+    "html": {
+      "src": "src/pages/**/*.html"
+    },
+    "nunjucks": {
+      "src": "src/pages/**/*.njk"
+    }
+  },
+  "browserslist": [
+    "last 3 version",
+    "> 3%"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "Simple Project Starter using Gulp v4",
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "babelify": "^10.0.0",
+    "browser-sync": "^2.26.7",
+    "browserify": "^16.3.0",
+    "cross-env": "^5.2.0",
+    "del": "^5.0.0",
+    "event-stream": "^4.0.1",
+    "fancy-log": "^1.3.3",
+    "gulp": "^4.0.2",
+    "gulp-csscss": "^0.1.2",
+    "gulp-htmlclean": "^2.7.22",
+    "gulp-if": "^2.0.2",
+    "gulp-nunjucks-render": "^2.2.3",
+    "gulp-parker": "^0.1.6",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-size": "^3.0.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "postcss-reporter": "^6.0.1",
+    "postcss-scss": "^2.0.0",
+    "stylelint": "^10.1.0",
+    "uglifyify": "^5.0.1",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0",
+    "watchify": "^3.11.1"
+  }
+}

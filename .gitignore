@@ -1,0 +1,11 @@
+syntax: glob
+.git
+.vs/
+.vscode/
+
+*.js.map
+
+node_modules/
+bower_components/
+
+/robots.txt

@@ -18,6 +18,42 @@ Once the installation process has been completed run on of the following:
 
 ### Unit Tests
 
+These tests are using Jest.
+
+#### Installing Jest
+
+Only needs to be installed once
+
+```bash
+npm i -g jest
+```
+
+Make sure you add the following to `package.json`, this will make sure that jests doesn't attempt to run the TestCase tests in the toor directory;
+
+```json
+"jest": {
+  "modulePathIgnorePatterns": [
+    "<rootDir>/__tests__"
+  ]
+}
+```
+
+#### Running tests
+
+Tests are located in the `__tests__` directory and are based on a `USER STORY`
+
+You can run a test from a command shell by calling a single command where you specify the target browser and file path.
+
+```bash
+npm run test
+```
+
+#### Viewing the Test Results
+
+Jest will output the report in a command shell.
+
+#### Notes on writing a Unit Test
+
 When writing a unit test organise it according to AAA (Arrange, Act, Assert) pattern.
 
 This is a common way of writing unit tests for a method under test.

@@ -4,7 +4,14 @@
   "main": "index.js",
   "scripts": {
     "start": "cross-env NODE_ENV=development && gulp dev",
-    "build": "cross-env NODE_ENV=production && gulp build"
+    "build": "cross-env NODE_ENV=production && gulp build",
+    "test": "jest"
+  },
+  "jest": {
+    "verbose": true,
+    "modulePathIgnorePatterns": [
+      "<rootDir>/__tests__"
+    ]
   },
   "keywords": [],
   "paths": {
@@ -49,6 +56,7 @@
     "gulp-sass": "^4.0.2",
     "gulp-size": "^3.0.0",
     "gulp-sourcemaps": "^2.6.5",
+    "jquery": "^3.4.1",
     "postcss-reporter": "^6.0.1",
     "postcss-scss": "^2.0.0",
     "stylelint": "^10.1.0",
